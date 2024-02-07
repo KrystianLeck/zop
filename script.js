@@ -14,7 +14,7 @@ function sendEmail(answer) {
 
     }).then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
-       alert('Twoja odpowiedź została wysłana na maila, więc prosze jej nikomu nie udostępniać bo nie chce mieć spamu!');
+       alert('Twoja odpowiedź została wysłana na maila, więc prosze tej strony nikomu nie udostępniać bo nie chce mieć spamu!');
     }, function(error) {
        console.log('FAILED...', error);
        alert('Niestety, wystąpił błąd przy wysyłaniu odpowiedzi.');
