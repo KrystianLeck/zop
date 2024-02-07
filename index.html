@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Czy zostaniesz moją Walentynką?</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("d1A3aLZZ2NdN3JDBh"); // Zastąp YOUR_PUBLIC_KEY Twoim kluczem publicznym z EmailJS
+   })();
+</script>
+</head>
+<body>
+<div class="container">
+    <h1>Czy zostaniesz moją Walentynką?</h1>
+    <p>Proszę, kliknij odpowiedni przycisk poniżej.</p>
+    <button id="yesBtn">Tak</button>
+    <button id="noBtn">Nie</button>
+    <div id="response" style="display:none;">
+        <p id="responseText"></p>
+        <img id="heartsGif" src="" alt="Serce" style="max-width:100%; height:auto;">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
